@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px #000;
+}
+
+.container *{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 900;
+}
+
+p {
+    width: 100%;
+    text-align: right;
+    color: #737373;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    color: #000;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 5px;
+    outline: none;
+}
